@@ -12,7 +12,7 @@ button = Button(21)
 
 while True:
     sleep(0.1)
-    if ldr.value < 0.5:
+    if ldr.value < 0.2:
         buzzer.on()
         frank.play()
         sleep(2)
