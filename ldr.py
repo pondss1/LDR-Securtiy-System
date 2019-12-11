@@ -15,14 +15,9 @@ while True:
     if ldr.value < 0.5:
         buzzer.on()
         frank.play()
-    else:
-        buzzer.off()
-        frank.stop()
+        sleep(2)
+        
 
-while True:
-   if button.wait_for_press():
-       Program.restart()
-    else print("Armed"):
     
     
 
